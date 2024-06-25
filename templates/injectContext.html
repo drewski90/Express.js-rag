@@ -1,0 +1,9 @@
+{{documents}}
+{% if documents.length > 0 %}
+Given the following context, respond to the query below:
+{% for doc in documents %}
+User: {{ doc.metadata.query }}
+Assistant: {{ doc.metadata.response }}
+{% endfor %}
+{% endif %}
+Query: {{ userMessage }}
