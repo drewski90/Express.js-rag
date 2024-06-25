@@ -49,3 +49,8 @@ node index.js
   2. AI Completions and Embeddings: Utilizes OpenAI's powerful models to generate text completions and embeddings.
   3. Message History: Stores all user interactions in AWS DynamoDB for persistence and analytics.
   4. Vector Storage: Uses PineconeDB to efficiently store and retrieve vector embeddings for advanced querying capabilities.
+
+# Dynamodb Schema
+
+"pk": partition key
+"sk": range key
